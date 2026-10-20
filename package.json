@@ -1,0 +1,21 @@
+{
+  "name": "init4sec",
+  "version": "0.1.0",
+  "description": "init4sec — plataforma de OSINT ofensivo/defensivo. Módulo 1: caça a vazamentos e ransomware no X (Twitter) com briefing de inteligência.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.65.0",
+    "express": "^4.21.2"
+  }
+}
