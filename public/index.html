@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>init4sec</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="brand-mark">&gt;_</span>
+      <div>
+        <div class="brand-name">init4sec</div>
+        <div class="brand-sub">OSINT // threat intel</div>
+      </div>
+    </div>
+    <nav id="nav">
+      <a href="#/painel" data-view="painel"><span>◉</span>Painel</a>
+      <a href="#/cacar" data-view="cacar"><span>⌖</span>Nova caça</a>
+      <a href="#/historico" data-view="historico"><span>☰</span>Histórico</a>
+      <a href="#/monitores" data-view="monitores"><span>⟳</span>Monitores</a>
+      <a href="#/alertas" data-view="alertas"><span>⚑</span>Alertas <b id="alert-badge" class="badge hidden"></b></a>
+      <div class="nav-sep">Base</div>
+      <a href="#/alvos" data-view="alvos"><span>◎</span>Alvos</a>
+      <a href="#/fontes" data-view="fontes"><span>⌁</span>Fontes no X</a>
+      <a href="#/config" data-view="config"><span>⚙</span>Config</a>
+    </nav>
+    <div class="sys" id="sys"></div>
+  </aside>
+  <main id="view"></main>
+  <div id="toast" class="toast hidden"></div>
+  <script src="app.js" type="module"></script>
+</body>
+</html>
